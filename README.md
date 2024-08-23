@@ -54,6 +54,8 @@ public void Deposit(int amount)
 }
 ```
 
+Here’s a solution using a lock to prevent the race condition:
+
 ```csharp
 public void DepositWithLock(int amount)
 {
