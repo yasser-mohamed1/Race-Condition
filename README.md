@@ -66,10 +66,6 @@ public void DepositWithLock(int amount)
 }
 ```
 
-### License
-
-This project is licensed under the MIT License – see the LICENSE file for details.
-
 ### Conclusion
 
 This project provides a basic example of how race conditions can occur in a multithreaded application and demonstrates how you can resolve them using thread synchronization techniques like the lock keyword.
