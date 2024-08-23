@@ -20,7 +20,7 @@ namespace RaceConditionDemo
             thread2.Join();
 
             Console.WriteLine($"Final Account Balance: {account.Balance}"); // The reslut should be 1000 !!
-                                                                            // Try to use WithLock functions to prevent race conditions.
+                                                                            // Try to use WithLock functions to prevent race condition.
             Console.ReadLine();
         }
 
